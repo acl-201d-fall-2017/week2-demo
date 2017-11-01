@@ -1,0 +1,26 @@
+table.bids {
+    width: 200px;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+}
+
+.amount {
+    text-align: right;
+}
+
+.name {
+    text-align: left;
+}
+
+td, th {
+  padding: 10px;
+}
+
+th {
+    background: darkgrey;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #eee;
+}
