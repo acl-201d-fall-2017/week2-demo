@@ -1,0 +1,21 @@
+- styling text
+    - font-family
+        - web safe fonts
+        - google fonts
+    - font-size
+        - small, smaller, large
+        - px
+        - em
+        - rem
+    - font-weight
+    - color
+- adding color
+    - color theme tools
+        - coolors.co
+    - named colors
+        - wikipedia
+    - hex values
+    - rgba: red, green, blue, alpha
+    - hsla: hue, saturation, lightness, alpha
+        - hslpicker
+- CSS reset: normalize

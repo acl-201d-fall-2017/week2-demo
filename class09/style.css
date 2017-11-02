@@ -1,0 +1,30 @@
+/* 
+font property shorthand
+    font: font-style font-variant font-weight font-size/line-height font-family;
+*/
+
+h1 {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    color: rgba(0,180,0,.5);
+}
+
+#cookies-section {
+    font-size: 40px;
+    background-color: lightblue;
+    background-color: #FF3399;
+    background-color: rgba(255,0,0,.5);
+    background-color: hsla(59, 65%, 77%, 0.59);
+}
+
+p {
+    font: small-caps 1.5rem 'Saira Semi Condensed', serif;
+    color: blue;
+}
+
+img {
+    filter: grayscale(.8);
+    filter: drop-shadow(16px 16px 20px red);  
+    box-shadow: 2px 2px 15px 28px rgba(255,0,180,.5);
+}
