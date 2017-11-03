@@ -1,0 +1,56 @@
+main {
+    /* border: solid blue 1px; */
+    width: 80%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('https://media.candystore.com/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/u/gummi-fish-albanese_1.jpg');
+    background-position: center center;
+    font-size: 2rem;
+    text-align: center;
+    color: #03A9F4;
+    height: 300px;
+    border: double 2px #03A9F4;
+}
+
+/* 
+img {
+    width: 100%;
+} */
+
+#cookies-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+#cookies-section article {
+    flex-basis: 60%;
+}
+
+#cookies-section aside {
+    flex-basis: 200px;
+}
+
+form {
+    display: flex;
+    background-color: pink;
+}
+
+fieldset {
+    flex-basis: 50%;
+    border: none;
+    background-color: rgba(255,0,0,.2);
+}
+
+legend {
+    color: lightskyblue;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 400px;
+    margin-bottom: 25px;
+}
