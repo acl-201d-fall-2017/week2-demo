@@ -1,16 +1,30 @@
+/*                                  order of operations */
+
+// debugger;
+
+// function showMsg() {
+//     console.log('I am the showMsg function');
+//     msgExpression();
+// }
+
+// const msgExpression = function() {
+//     console.log('I am the msgExpression function expression');
+// };
+
+// showMsg();
+
 /*                                         ERRORS! */
 
 // ReferenceError
 // console.log(what);
 
-// TypeError
+// // TypeError
 // const someObj = {
 //     a: 10,
 //     b: 9
 // };
 
 // someObj.push(20);
-
 
 
 /*                                         scope */
@@ -28,16 +42,17 @@
 // function scopyFunc(doggy) {
 
 //     function privateFunc() {
+//         var functionScoped = 'boo';
 //         const privateVar = 'woof!';
 //         return doggy + ' says ' + privateVar;
 //     }
 
 //     console.log('doggy is only defined inside scopyFunc: ' + doggy);
-//     console.log('privateVar is only defined inside privateFunc: ' + privateVar);
+//     // console.log('privateVar is only defined inside privateFunc: ' + privateVar);
 //     return privateFunc();
 // }
 
-// privateFunc();
+// // privateFunc();
 // scopyFunc('Fido');
 
 
